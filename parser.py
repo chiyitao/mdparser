@@ -127,6 +127,9 @@ def inner_line_parse(line_str):
     italic_sign_underline = '_'
     bold_sign_star = '**'
     bold_sign_underline = '__'
-    stack = []
     # using two stack to retrieve the current state of the text line.
+    char_stack = []
+    status_stack = []
+    
+
 
